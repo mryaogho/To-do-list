@@ -1,16 +1,58 @@
-# React + Vite
+# To-do List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Application de gestion de tâches développée avec React et Tailwind CSS.
 
-Currently, two official plugins are available:
+Cette version a été reconstruite depuis zéro pour mettre en pratique les bases de React et du développement d'interfaces avec Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Fonctionnalités
 
-## React Compiler
+* Ajouter une tâche
+* Marquer une tâche comme terminée
+* Supprimer une tâche
+* Compter les tâches et les tâches terminées
+* Ajouter une tâche avec la touche `Entrée`
+* Interface responsive
+* Défilement automatique lorsque la liste contient beaucoup de tâches
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies
 
-## Expanding the ESLint configuration
+* React
+* JavaScript (JSX)
+* Tailwind CSS
+* React Icons
+* Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Structure
+
+src/
+├── components/
+│   ├── Footer.jsx
+│   ├── Header.jsx
+│   ├── Input.jsx
+│   ├── TaskItem.jsx
+│   └── TaskList.jsx
+├── App.jsx
+├── main.jsx
+└── index.css
+
+## Installation
+
+git clone git@github.com:mryaogho/To-do-list.git
+cd To-do-list
+npm install
+npm run dev
+
+## Objectif
+
+Projet réalisé pour pratiquer :
+
+* les composants React
+* `useState`
+* les props
+* `map()` et `filter()`
+* la gestion des événements
+* le responsive design avec Tailwind CSS
+
+## Auteur
+
+Arafat Yaogho
