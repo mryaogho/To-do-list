@@ -24,6 +24,7 @@ Cette version a été reconstruite depuis zéro pour mettre en pratique les base
 
 ## Structure
 
+```
 src/
 ├── components/
 │   ├── Footer.jsx
@@ -34,13 +35,16 @@ src/
 ├── App.jsx
 ├── main.jsx
 └── index.css
+```
 
 ## Installation
 
+```
 git clone git@github.com:mryaogho/To-do-list.git
 cd To-do-list
 npm install
 npm run dev
+```
 
 ## Objectif
 
